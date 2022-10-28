@@ -1,4 +1,5 @@
 # IRRGN: An Implicit Relational Reasoning Graph Network for Multi-turn Response Selection
+Code of the EMNLP-2022 paper: IRRGN: An Implicit Relational Reasoning Graph Network for Multi-turn Response Selection
 ## Overview of the proposed IRRGN
 ![IRRGN](./Architecture.png)
 ## jupyter_version
