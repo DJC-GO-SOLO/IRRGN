@@ -130,7 +130,7 @@ if __name__ == '__main__':
     
     for epoch in range(1, args.epochs + 1):
         print(f'******************** Training Epoch: {epoch} ********************')
-        # train_fn(train_dataloader, model, criterion1, optimizer,args,device,epoch,scheduler)
+        train_fn(train_dataloader, model, criterion1, optimizer,args,device,epoch,scheduler)
         r4_1,r4_2,mrr = validate_fn(val_dataloader, model, criterion2,args,device,epoch)
         logger.info(f"Epoch: {epoch:02}. Valid. R4_1:{r4_1} R4_2:{r4_2} MRR:{mrr}")
         if r4_1 >= best:
