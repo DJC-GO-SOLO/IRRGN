@@ -8,6 +8,8 @@ You can train the model as follows:
  ```
     python code/main.py 
  ```
+## Checkpoints
+Checkpoints on the base and plus datasets can be obtained through this [link](https://drive.google.com/drive/folders/143Qj9pM6Lc0Bft3NvJbgjqBwdV3aYN9c?usp=sharing).
 ## Environment
 
 * A100-SXM4-80GB GPU
